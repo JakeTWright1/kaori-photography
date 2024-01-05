@@ -5,6 +5,8 @@ body {
   background: url('home-background.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  overflow: scroll;
+  background-attachment: fixed;
 }
 
 .name-eng {
@@ -38,20 +40,19 @@ body {
 }
 
 .name-jap {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Koulen', sans-serif;
   font-size: 40px;
   margin: 0;
-  font-weight: lighter;
+  font-weight: 100px;
   position: absolute;
-  left: 25%;
-  top: 15%;
+  left: 20%;
+  top: 10%;
   writing-mode: vertical-rl;
   text-orientation: upright;
   z-index: 1;
-  color: rgba(171, 9, 9, 0.6);
+  color: rgba(171, 9, 9, 0.9);
 }
 
 .name-jap h1 {
-  margin: -20px;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
