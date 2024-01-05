@@ -29,9 +29,28 @@ body {
   position: fixed;
   left: 15%;
   top: 13%;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 2;
 }
 
 #surname:hover {
   color: green;
+}
+
+.name-jap {
+  font-family: 'Koulen', sans-serif;
+  font-size: 40px;
+  margin: 0;
+  font-weight: lighter;
+  position: fixed;
+  left: 25%;
+  top: 10%;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  z-index: 1;
+  color: rgba(171, 9, 9, 0.6);
+}
+
+.name-jap h1 {
+  margin: -20px;
 }
