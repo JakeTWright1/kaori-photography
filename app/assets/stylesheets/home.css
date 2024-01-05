@@ -15,7 +15,7 @@ body {
 }
 
 #forename {
-  position: fixed;
+  position: absolute;
   left: 7%;
   color: rgba(255, 255, 255, 0.8);
   z-index: 1;
@@ -26,7 +26,7 @@ body {
 }
 
 #surname {
-  position: fixed;
+  position: absolute;
   left: 15%;
   top: 13%;
   color: rgba(255, 255, 255, 0.8);
@@ -38,13 +38,13 @@ body {
 }
 
 .name-jap {
-  font-family: 'Koulen', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
   margin: 0;
   font-weight: lighter;
-  position: fixed;
+  position: absolute;
   left: 25%;
-  top: 10%;
+  top: 15%;
   writing-mode: vertical-rl;
   text-orientation: upright;
   z-index: 1;
@@ -53,4 +53,5 @@ body {
 
 .name-jap h1 {
   margin: -20px;
+  font-family: 'Open Sans', sans-serif;
 }
