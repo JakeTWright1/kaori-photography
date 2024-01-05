@@ -2,11 +2,15 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color: #7e7d7d;
+}
+
+.container {
   background: url('home-background.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  overflow-x: hidden;
-  overflow-y: scroll;
   background-attachment: fixed;
 }
 
