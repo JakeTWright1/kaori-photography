@@ -4,12 +4,13 @@
   margin: 0;
   position: fixed;
   transition: 0.5s;
+  z-index: 5;
 }
 
 .nav-links {
   display: flex;
   height: 100%;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
   margin: 0 20px;
   gap: 20px;
@@ -20,6 +21,30 @@
   font-family: 'Koulen', sans-serif;
 }
 
-.nav-links p:hover {
+.nav-link:hover {
   color: rgba(171, 9, 9, 0.6);
+}
+
+.nav-title {
+  font-family: 'Koulen', sans-serif;
+  font-size: 24px;
+  margin-right: auto;
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+
+.nav-title .reveal {
+  opacity: (1);
+}
+.nav-name {
+  font-family: 'Koulen', sans-serif;
+  font-size: 24px;
+  margin-right: auto;
+  color: rgba(171, 9, 9, 0.9);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Koulen', sans-serif;
 }
