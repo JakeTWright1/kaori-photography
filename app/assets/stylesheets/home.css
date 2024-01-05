@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('home-background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.name-eng {
+  font-family: 'Koulen', sans-serif;
+  font-size: 48px;
+  margin: 0;
+  font-weight: lighter;
+}
+
+#forename {
+  position: fixed;
+  left: 7%;
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+#forename:hover {
+  color: yellow;
+}
+
+#surname {
+  position: fixed;
+  left: 15%;
+  top: 13%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#surname:hover {
+  color: green;
+}

@@ -1,0 +1,18 @@
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+/home/jake/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-vmu7js sitelibdir\=./.gem.20240105-18667-vmu7js clean
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-vmu7js sitelibdir\=./.gem.20240105-18667-vmu7js
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-vmu7js sitelibdir\=./.gem.20240105-18667-vmu7js install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240105-18667-vmu7js
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/stringio-3.1.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-vmu7js sitelibdir\=./.gem.20240105-18667-vmu7js clean

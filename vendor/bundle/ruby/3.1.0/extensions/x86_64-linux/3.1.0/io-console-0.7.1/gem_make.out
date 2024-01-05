@@ -1,0 +1,27 @@
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console
+/home/jake/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-zc5igo sitelibdir\=./.gem.20240105-18667-zc5igo clean
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-zc5igo sitelibdir\=./.gem.20240105-18667-zc5igo
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-zc5igo sitelibdir\=./.gem.20240105-18667-zc5igo install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240105-18667-zc5igo/io
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-zc5igo sitelibdir\=./.gem.20240105-18667-zc5igo clean

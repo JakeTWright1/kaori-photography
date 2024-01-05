@@ -1,0 +1,18 @@
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/home/jake/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-afccpv sitelibdir\=./.gem.20240105-18667-afccpv clean
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-afccpv sitelibdir\=./.gem.20240105-18667-afccpv
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-afccpv sitelibdir\=./.gem.20240105-18667-afccpv install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240105-18667-afccpv/racc
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-afccpv sitelibdir\=./.gem.20240105-18667-afccpv clean

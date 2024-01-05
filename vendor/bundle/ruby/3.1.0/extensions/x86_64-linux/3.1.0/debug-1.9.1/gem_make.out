@@ -1,0 +1,19 @@
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+/home/jake/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-c37x92 sitelibdir\=./.gem.20240105-18667-c37x92 clean
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-c37x92 sitelibdir\=./.gem.20240105-18667-c37x92
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-c37x92 sitelibdir\=./.gem.20240105-18667-c37x92 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240105-18667-c37x92/debug
+
+current directory: /home/jake/code/JakeTWright1/kaori-page/kaori-photography/vendor/bundle/ruby/3.1.0/gems/debug-1.9.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240105-18667-c37x92 sitelibdir\=./.gem.20240105-18667-c37x92 clean
