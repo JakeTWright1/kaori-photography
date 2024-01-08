@@ -29,13 +29,15 @@
   font-family: 'Koulen', sans-serif;
   font-size: 24px;
   margin-right: auto;
-  opacity: 0;
   transition: 0.2s all ease;
+  opacity: 0;
 }
 
-.nav-title .reveal {
-  opacity: (1);
+.reveal {
+  opacity: 1;
 }
+
+
 .nav-name {
   font-family: 'Koulen', sans-serif;
   font-size: 24px;
