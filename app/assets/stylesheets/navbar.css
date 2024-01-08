@@ -7,6 +7,13 @@
   z-index: 5;
 }
 
+.background {
+  /* background-color: rgba(16, 16, 16, 0.849);
+   */
+   background-color: antiquewhite;
+   color: black;
+}
+
 .nav-links {
   display: flex;
   height: 100%;
@@ -16,18 +23,19 @@
   gap: 20px;
 }
 
-.nav-links p {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Koulen', sans-serif;
-}
+
 
 .nav-link:hover {
   color: rgba(171, 9, 9, 0.6);
 }
 
+.black-nav:hover {
+  color: rgba(171, 9, 9, 0.6);
+}
+
 .nav-title {
   font-family: 'Koulen', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   margin-right: auto;
   transition: 0.2s all ease;
   opacity: 0;
@@ -40,13 +48,19 @@
 
 .nav-name {
   font-family: 'Koulen', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   margin-right: auto;
-  color: rgba(171, 9, 9, 0.9);
+  color: rgba(171, 9, 9, 1);
 }
 
 .nav-link {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Koulen', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.black-nav {
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
 }
