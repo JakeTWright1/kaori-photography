@@ -86,7 +86,7 @@ animation: slideThreeAnim 20s infinite;
 
 
 #forename:hover {
-  color: rgb(208, 160, 96);
+  color: red;
 }
 #forename {
   position: fixed;
@@ -105,18 +105,27 @@ animation: slideThreeAnim 20s infinite;
   z-index: 2;
 }
 
-
+#photo-tag p{
+  font-family: 'Koulen', sans-serif;
+  font-size: 48px;
+  margin: 0;
+  /* font-weight: lighter; */
+  z-index: 3;
+  position: fixed;
+  top: 50%;
+  left: 25%;
+}
 #surname:hover {
   color: #98db71;
 }
 
 .name-jap {
   font-family: 'Koulen', sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   margin: 0;
   font-weight: 100px;
   position: fixed;
-  left: 20%;
+  left: 0%;
   top: 10%;
   writing-mode: vertical-rl;
   text-orientation: upright;
